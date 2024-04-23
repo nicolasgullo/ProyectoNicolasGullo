@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./scss/navegador";
+@import "./scss/portada";
+@import "./scss/cuadro";
+@import "./scss/cards";
+@import "./scss/contacto";
+@import "./scss/footer";
+
+@media(max-width: 1024px){
+
+    .card-nosotros h4{
+      margin-bottom: 0px;
+    }
+
+    footer iframe{
+      height: 150px;
+      width: 300px;
+    }
+
+    .texto-footer{
+      font-size: 18px;
+      margin-right: 60px;
+    }
+
+    .buttons a{
+      font-size: 25px;
+    }
+
+    footer li{
+      padding: 8px;
+    }
+  }
+
+  @media(max-width: 768px){
+
+    h1{
+      font-size: 25px;
+    }
+
+    .navegador{
+      font-size: 18px;
+    }
+
+    .portada{
+      height: 400px;
+    }
+
+    .texto-portada{
+      font-size: 20px;
+    }
+
+    .titulo-portada{
+      font-size: 30px;
+    }
+
+    .nosotros-texto{
+      font-size: 18px;
+    }
+
+    .imagen-cuadro{
+      height: 50%;
+      width: 50%;
+    }
+
+    .texto-footer{
+      font-size: 16px;
+    }
+
+    footer iframe{
+      width: 200px;
+    }
+  }
+
+  @media(max-width: 480px){
+
+    h1{
+      font-size: 15px;
+    }
+
+    header{
+      height: 60px;
+    }
+
+    .servicios{
+      font-size: 20px;
+    }
+
+    .navegador{
+      font-size: 12px;
+    }
+
+    .cuadro{
+      height: 400px;
+    }
+
+    .texto-cuadro{
+      font-size: 15px;
+    }
+
+    .logo img{
+      height: 40px;
+    }
+
+    .texto-footer{
+      font-size: 10px;
+    }   
+
+    footer iframe{
+      height: 120px;
+      width: 100px;
+    }
+
+    .buttons a{
+      font-size: 15px;
+    }
+
+    footer li{
+      padding: 2px;
+    }
+
+    .nosotros-texto{
+      font-size: 15px;
+    }
+
+    .card-nosotros{
+      font-size: 18px;
+    }
+
+  }

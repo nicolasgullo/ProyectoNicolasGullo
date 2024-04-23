@@ -1,0 +1,40 @@
+  header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-shadow: 1px 0px 1px white;
+  }
+
+  .logo {
+    display: flex;  
+    align-items: center;
+  }
+
+  .logo img{
+    height: 50px;
+    margin-right: 5px;
+  }
+
+  h1 {
+    color: $color-primario;
+    font-size: 35px;
+  }
+
+  .navegador {
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav a {
+    color: $color-primario;
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  
