@@ -55,10 +55,6 @@
       font-size: 30px;
     }
 
-    .nosotros-texto{
-      font-size: 18px;
-    }
-
     .imagen-cuadro{
       height: 50%;
       width: 50%;
@@ -93,10 +89,17 @@
 
     .cuadro{
       height: 400px;
+      padding: 10px;  
     }
 
     .texto-cuadro{
-      font-size: 15px;
+      font-size: 12px;
+      padding: 10px;
+    }
+
+    .imagen-cuadro{
+      height: 60%;
+      width: 60%;
     }
 
     .logo img{
@@ -120,12 +123,9 @@
       padding: 2px;
     }
 
-    .nosotros-texto{
-      font-size: 15px;
-    }
-
     .card-nosotros{
-      font-size: 18px;
+      font-size: 14px;
+      margin: 80px;
     }
 
   }

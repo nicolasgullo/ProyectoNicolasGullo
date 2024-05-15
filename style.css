@@ -124,7 +124,7 @@ nav a {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 100px;
+  padding: 10px;
 }
 
 .card {
@@ -161,9 +161,8 @@ nav a {
   font-size: 20px;
   text-shadow: 2px 2px 2px black;
   text-align: center;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 150px;
+  padding: 10px;
   transition: 2s;
 }
 .card-nosotros:hover {
@@ -330,9 +329,6 @@ footer li {
   .titulo-portada {
     font-size: 30px;
   }
-  .nosotros-texto {
-    font-size: 18px;
-  }
   .imagen-cuadro {
     height: 50%;
     width: 50%;
@@ -359,9 +355,15 @@ footer li {
   }
   .cuadro {
     height: 400px;
+    padding: 10px;
   }
   .texto-cuadro {
-    font-size: 15px;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .imagen-cuadro {
+    height: 60%;
+    width: 60%;
   }
   .logo img {
     height: 40px;
@@ -379,10 +381,8 @@ footer li {
   footer li {
     padding: 2px;
   }
-  .nosotros-texto {
-    font-size: 15px;
-  }
   .card-nosotros {
-    font-size: 18px;
+    font-size: 14px;
+    margin: 80px;
   }
 }/*# sourceMappingURL=style.css.map */

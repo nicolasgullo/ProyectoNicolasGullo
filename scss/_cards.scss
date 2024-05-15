@@ -12,7 +12,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; 
-    padding: 100px;   
+    padding: 10px;
+
   }
 
   .card{
@@ -49,9 +50,8 @@
     font-size: 20px;
     text-shadow: 2px 2px 2px black;
     text-align: center;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 150px;
+    padding: 10px;
     transition: 2s;
     &:hover{
       transform: scale(1.3);
